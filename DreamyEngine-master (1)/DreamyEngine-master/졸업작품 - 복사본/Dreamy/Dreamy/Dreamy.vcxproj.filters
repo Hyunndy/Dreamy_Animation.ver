@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{92fdb974-c56f-49c3-a3a7-628a6415eb32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBXAnimation">
+      <UniqueIdentifier>{0266bcf7-36cc-4046-910c-fee85fd77de9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{c9141200-6ec1-4066-a0ac-4a0e5dee2cfc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CameraClass.cpp" />
+    <ClCompile Include="D3DClass.cpp" />
+    <ClCompile Include="CpuClass.cpp" />
+    <ClCompile Include="FpsClass.cpp" />
+    <ClCompile Include="graphicsclass.cpp" />
+    <ClCompile Include="InputClass.cpp" />
+    <ClCompile Include="MoveClass.cpp" />
+    <ClCompile Include="SoundClass.cpp" />
+    <ClCompile Include="SystemClass.cpp" />
+    <ClCompile Include="TimerClass.cpp" />
+    <ClCompile Include="D3D.cpp" />
+    <ClCompile Include="DepthStencil.cpp" />
+    <ClCompile Include="AnimationFrames.cpp">
+      <Filter>FBXAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXAnimationModel.cpp">
+      <Filter>FBXAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXCamera.cpp">
+      <Filter>FBXAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXShader.cpp">
+      <Filter>FBXAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelAnimation.cpp">
+      <Filter>FBXAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelAnimationController.cpp">
+      <Filter>FBXAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelAnimationKeyFrames.cpp">
+      <Filter>FBXAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelBoneWeights.cpp">
+      <Filter>FBXAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="String.cpp">
+      <Filter>FBXAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelMaterial.cpp">
+      <Filter>FBXAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelPart.cpp">
+      <Filter>FBXAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelScene.cpp">
+      <Filter>FBXAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelSkeleton.cpp">
+      <Filter>FBXAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelSkeletonBone.cpp">
+      <Filter>FBXAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="VertexLayout.cpp" />
+    <ClCompile Include="Rasterizer.cpp" />
+    <ClCompile Include="Sampler.cpp" />
+    <ClCompile Include="TextureShaderClass.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderManagerClass.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelClass.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureClass.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="MatrixClass.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderClass.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CameraClass.h" />
+    <ClInclude Include="D3DClass.h" />
+    <ClInclude Include="CpuClass.h" />
+    <ClInclude Include="FpsClass.h" />
+    <ClInclude Include="graphicsclass.h" />
+    <ClInclude Include="InputClass.h" />
+    <ClInclude Include="MoveClass.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="SystemClass.h" />
+    <ClInclude Include="TimerClass.h" />
+    <ClInclude Include="D3D.h" />
+    <ClInclude Include="DepthStencil.h" />
+    <ClInclude Include="AnimationFrames.h">
+      <Filter>FBXAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXAnimationModel.h">
+      <Filter>FBXAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXCameraBuffer.h">
+      <Filter>FBXAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXCamera.h">
+      <Filter>FBXAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXShader.h">
+      <Filter>FBXAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXShaderBuffer.h">
+      <Filter>FBXAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXSunBuffer.h">
+      <Filter>FBXAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXWorldBuffer.h">
+      <Filter>FBXAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelAnimation.h">
+      <Filter>FBXAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelAnimationController.h">
+      <Filter>FBXAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelAnimationKeyFrames.h">
+      <Filter>FBXAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelBoneWeights.h">
+      <Filter>FBXAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelBuffer.h">
+      <Filter>FBXAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="String.h">
+      <Filter>FBXAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelMaterial.h">
+      <Filter>FBXAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelPart.h">
+      <Filter>FBXAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelScene.h">
+      <Filter>FBXAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelSkeleton.h">
+      <Filter>FBXAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelSkeletonBone.h">
+      <Filter>FBXAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelUtility.h">
+      <Filter>FBXAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx_fbx.h">
+      <Filter>FBXAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexLayout.h" />
+    <ClInclude Include="Rasterizer.h" />
+    <ClInclude Include="Sampler.h" />
+    <ClInclude Include="TextureShaderClass.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderManagerClass.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelClass.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureClass.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="MatrixClass.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderClass.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
